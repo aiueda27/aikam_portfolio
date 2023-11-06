@@ -20,15 +20,17 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Over 2 years of experience <br className="sm:block hidden" /> in
-            front end development. <br className="sm:block hidden" />I have a
+            front end development.
+            {/* <br className="sm:block hidden" />I have a
             verifiable history of <br className="sm:block hidden" />
             ES6, React, Vue.js, TypeScript, <br className="sm:block hidden" />
             HTML, CSS, Sass, Git, and
             <br className="sm:block hidden" />
-            various front-end frameworks.
+            various front-end frameworks. */}
           </p>
         </div>
       </div>
+      <ComputersCanvas />
     </section>
   )
 }
