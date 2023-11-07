@@ -147,10 +147,6 @@ const experiences = [
     iconBg: '#E6DEDD',
     date: 'Apr 2022 - October 2023',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
       'Built kimono operating web app to allow users to rent/purchase items, make contracts, and keep track of previous contracts, using Vue.js, TypeScript, Express.js.',
       'Led 8 developers in developing internal design systems implementing the React.js library and storybook while working with designers.',
       'Tested, fixed 200+ bags, and shipped 10s of 1000s of lines of code to development teams.',
