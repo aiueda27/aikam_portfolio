@@ -22,9 +22,8 @@ import typescript from './tech/typescript.png'
 import threejs from './tech/threejs.svg'
 
 import arsaga from './company/arsaga.png'
-import shopify from './company/shopify.png'
-import starbucks from './company/starbucks.png'
-import tesla from './company/tesla.png'
+import yokogawa from './company/yokogawa.png'
+import mizutama from './company/mizutama.png'
 
 import carrent from './carrent.png'
 import jobit from './jobit.png'
@@ -53,9 +52,8 @@ export {
   typescript,
   threejs,
   arsaga,
-  shopify,
-  starbucks,
-  tesla,
+  yokogawa,
+  mizutama,
   carrent,
   jobit,
   tripguide,

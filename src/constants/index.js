@@ -16,9 +16,8 @@ import {
   figma,
   docker,
   arsaga,
-  starbucks,
-  tesla,
-  shopify,
+  mizutama,
+  yokogawa,
   carrent,
   jobit,
   tripguide,
@@ -116,22 +115,9 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'React.js Developer',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
-    ],
-  },
-  {
     title: 'Web Developer and Digital Marketer',
     company_name: 'Mizutama Tea Farm',
-    icon: tesla,
+    icon: mizutama,
     iconBg: '#E6DEDD',
     date: 'Mar 2020 - May 2021',
     points: [
@@ -144,7 +130,7 @@ const experiences = [
   {
     title: 'Web Developer and Digital Marketer',
     company_name: 'Yokogawa',
-    icon: shopify,
+    icon: yokogawa,
     iconBg: '#383E56',
     date: 'Oct 2021 - Mar 2022',
     points: [
