@@ -1,5 +1,3 @@
-import SectionTitle from './SectionTitle'
-import ServiceCard from './ServiceCard'
-import ExperienceCard from './ExperienceCard'
+import SectionHeader from './SectionHeader'
 
-export { SectionTitle, ServiceCard, ExperienceCard }
+export { SectionHeader }
