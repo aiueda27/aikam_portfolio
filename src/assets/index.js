@@ -4,6 +4,7 @@ import creator from './creator.png'
 import mobile from './mobile.png'
 import web from './web.png'
 import github from './github.png'
+import link from './link.png'
 import menu from './menu.svg'
 import close from './close.svg'
 
@@ -25,9 +26,10 @@ import arsaga from './company/arsaga.png'
 import yokogawa from './company/yokogawa.png'
 import mizutama from './company/mizutama.png'
 
-import carrent from './carrent.png'
-import jobit from './jobit.png'
-import tripguide from './tripguide.png'
+import chatGPT from './project/chatGPT.png'
+import confidential from './project/confidential.jpg'
+import disney from './project/disney.png'
+import eyeroom from './project/eyeroom.png'
 
 export {
   logo,
@@ -36,6 +38,7 @@ export {
   mobile,
   web,
   github,
+  link,
   menu,
   close,
   css,
@@ -54,7 +57,8 @@ export {
   arsaga,
   yokogawa,
   mizutama,
-  carrent,
-  jobit,
-  tripguide,
+  chatGPT,
+  confidential,
+  disney,
+  eyeroom,
 }
