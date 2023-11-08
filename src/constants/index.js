@@ -18,9 +18,10 @@ import {
   arsaga,
   mizutama,
   yokogawa,
-  carrent,
-  jobit,
-  tripguide,
+  chatGPT,
+  confidential,
+  disney,
+  eyeroom,
   threejs,
 } from '../assets'
 
@@ -185,12 +186,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
+    name: 'chatGPT Prompt Park',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'Built customized chat GPT prompt service which recommends optimized prompts based on the provided personal information, and can be shared with other users and saved. It has monitoring function which allows users to analyze their prompts. Contributed to the process of building development environment such as adding linter, code formatter, and git hooks as this was a new project.',
     tags: [
       {
-        name: 'react',
+        name: 'nextjs',
         color: 'blue-text-gradient',
       },
       {
@@ -202,50 +203,75 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/',
+    image: chatGPT,
+    source_code_link: '',
+    website_link: 'https://promptpark.jp/',
   },
   {
-    name: 'Job IT',
+    name: 'CONFIDENTIAL',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'Web-based platform that allows users to rent/purchase, make contracts, and manage kimono rentals, providing a convenient and efficient time, place, price for the occasion.',
+    tags: [
+      {
+        name: 'Vue.js',
+        color: 'blue-text-gradient', //TODO: update color
+      },
+      {
+        name: 'TypeScript',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'Express.js',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: confidential,
+    source_code_link: '',
+    website_link: '',
+  },
+  {
+    name: 'Disney+ Clone',
+    description:
+      'Replicated platform that allows users to login, and see the description of the movies.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'redux',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'firebase',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: disney,
+    source_code_link: 'https://github.com/aiueda27/disney-clone',
+    website_link: '',
   },
   {
-    name: 'Trip Guide',
+    name: 'Eyeroom Mira',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Responsive cosmetic industry platform which dedicated to sowcasing the artistry and elegance of beauty services. In urgent need of the platform, this was designed and released within 4 days by solo. Work In Progress',
     tags: [
       {
-        name: 'nextjs',
+        name: 'WordPress',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'Sass',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'Figma',
         color: 'pink-text-gradient',
       },
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/',
+    image: eyeroom,
+    source_code_link: 'https://github.com/aiueda27/eyeroom-mira',
+    website_link: 'https://eyeroom-mira.com/',
   },
 ]
 
