@@ -7,7 +7,10 @@ import github from './github.png'
 import link from './link.png'
 import menu from './menu.svg'
 import close from './close.svg'
+import quote_start from './quote_start.png'
+import quote_end from './quote_end.png'
 
+/** tech */
 import css from './tech/css.png'
 import docker from './tech/docker.png'
 import figma from './tech/figma.png'
@@ -22,14 +25,19 @@ import tailwind from './tech/tailwind.png'
 import typescript from './tech/typescript.png'
 import threejs from './tech/threejs.svg'
 
+/** company */
 import arsaga from './company/arsaga.png'
 import yokogawa from './company/yokogawa.png'
 import mizutama from './company/mizutama.png'
 
+/** project */
 import chatGPT from './project/chatGPT.png'
 import confidential from './project/confidential.jpg'
 import disney from './project/disney.png'
 import eyeroom from './project/eyeroom.png'
+
+/** testimonial */
+import person from './testimonial/person.png'
 
 export {
   logo,
@@ -41,6 +49,10 @@ export {
   link,
   menu,
   close,
+  quote_start,
+  quote_end,
+
+  /** tech */
   css,
   docker,
   figma,
@@ -54,11 +66,18 @@ export {
   tailwind,
   typescript,
   threejs,
+
+  /** company */
   arsaga,
   yokogawa,
   mizutama,
+
+  /** project */
   chatGPT,
   confidential,
   disney,
   eyeroom,
+
+  /** testimonial */
+  person,
 }
