@@ -160,27 +160,26 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+      "I had the privilege of having Ai as a web developer on our team, and I couldn't have asked for a more dedicated and talented professional. Ai consistently delivered high-quality work, demonstrating an exceptional grasp of web technologies and a keen eye for design. Her ability to collaborate, problem-solve, and meet project deadlines was truly impressive. Ai played an integral role in elevating our web development projects, and I wholeheartedly recommend her as a top-notch web developer.",
+    name: 'D U',
+    designation: 'CEO',
+    company: 'Mizutama Tea Farm',
+    image:
+      'https://d3titqsz73pmgt.cloudfront.net/w=552,f=jpg,ir=auto/prod.owl.private/store/2fb597015c16ad9bf3fa2352f7145fca.jpg',
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
+    testimonial: 'Ai was amazing',
+    name: 'A M',
+    designation: 'Junior Developer',
+    company: 'Arsaga Partners',
+    image: '',
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+    testimonial: 'Ai was amazing',
+    name: 'B E',
+    designation: 'UI/UX Designer',
+    company: 'Arsaga Partners',
+    image: '',
   },
 ]
 
