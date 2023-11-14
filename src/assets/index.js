@@ -1,14 +1,16 @@
 import logo from './favicon.ico'
-import backend from './backend.png'
-import creator from './creator.png'
-import mobile from './mobile.png'
-import web from './web.png'
 import github from './github.png'
 import link from './link.png'
 import menu from './menu.svg'
 import close from './close.svg'
 import quote_start from './quote_start.png'
 import quote_end from './quote_end.png'
+
+/** overview */
+import frontend from './overview/frontend.png'
+import web from './overview/web.png'
+import uiux from './overview/uiux.png'
+import marketing from './overview/marketing.png'
 
 /** tech */
 import css from './tech/css.png'
@@ -41,16 +43,18 @@ import person from './testimonial/person.png'
 
 export {
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
   github,
   link,
   menu,
   close,
   quote_start,
   quote_end,
+
+  /** overview */
+  frontend,
+  web,
+  uiux,
+  marketing,
 
   /** tech */
   css,
