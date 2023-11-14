@@ -10,7 +10,7 @@ const Feedbacks = () => {
       <div
         className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}
       >
-        <SectionHeader subText="What others say" headText="Testimonails" />
+        <SectionHeader subText="What others say" headText="Testimonials" />
       </div>
       <div className={`${styles.paddingX} -mt-20 pb-14 flex flex-col gap-7`}>
         {testimonials.map((testimonial, index) => (
