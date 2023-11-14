@@ -161,22 +161,23 @@ const testimonials = [
   {
     testimonial:
       "I had the privilege of having Ai as a web developer on our team, and I couldn't have asked for a more dedicated and talented professional. Ai consistently delivered high-quality work, demonstrating an exceptional grasp of web technologies and a keen eye for design. Her ability to collaborate, problem-solve, and meet project deadlines was truly impressive. Ai played an integral role in elevating our web development projects, and I wholeheartedly recommend her as a top-notch web developer.",
-    name: 'D U',
+    name: 'Dai U',
     designation: 'CEO',
     company: 'Mizutama Tea Farm',
     image:
       'https://d3titqsz73pmgt.cloudfront.net/w=552,f=jpg,ir=auto/prod.owl.private/store/2fb597015c16ad9bf3fa2352f7145fca.jpg',
   },
   {
-    testimonial: 'Ai was amazing',
-    name: 'A M',
+    testimonial:
+      'Given the opportunity I would be thrilled to work alongside AI again in the future. She was very supportive and thoughtful when I joined the company, and continued to be a joy to work with. ',
+    name: 'Ashby M',
     designation: 'Junior Developer',
     company: 'Arsaga Partners',
     image: '',
   },
   {
     testimonial: 'Ai was amazing',
-    name: 'B E',
+    name: 'Brian E',
     designation: 'UI/UX Designer',
     company: 'Arsaga Partners',
     image: '',
@@ -190,16 +191,16 @@ const projects = [
       'Built customized chat GPT prompt service which recommends optimized prompts based on the provided personal information, and can be shared with other users and saved. It has monitoring function which allows users to analyze their prompts. Contributed to the process of building development environment such as adding linter, code formatter, and git hooks as this was a new project.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'Next.js',
+        color: 'white-text-gradient',
+      },
+      {
+        name: 'TypeScript',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'Chakra Ui',
         color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
       },
     ],
     image: chatGPT,
@@ -213,15 +214,15 @@ const projects = [
     tags: [
       {
         name: 'Vue.js',
-        color: 'blue-text-gradient', //TODO: update color
-      },
-      {
-        name: 'TypeScript',
         color: 'green-text-gradient',
       },
       {
+        name: 'TypeScript',
+        color: 'blue-text-gradient',
+      },
+      {
         name: 'Express.js',
-        color: 'pink-text-gradient',
+        color: 'white-text-gradient',
       },
     ],
     image: confidential,
@@ -234,16 +235,16 @@ const projects = [
       'Replicated platform that allows users to login, and see the description of the movies.',
     tags: [
       {
-        name: 'react',
+        name: 'React',
         color: 'blue-text-gradient',
       },
       {
-        name: 'redux',
-        color: 'green-text-gradient',
+        name: 'Redux',
+        color: 'violet-text-gradient',
       },
       {
-        name: 'firebase',
-        color: 'pink-text-gradient',
+        name: 'Firebase',
+        color: 'orange-text-gradient',
       },
     ],
     image: disney,
@@ -261,11 +262,11 @@ const projects = [
       },
       {
         name: 'Sass',
-        color: 'green-text-gradient',
+        color: 'pink-text-gradient',
       },
       {
         name: 'Figma',
-        color: 'pink-text-gradient',
+        color: 'violet-text-gradient',
       },
     ],
     image: eyeroom,
