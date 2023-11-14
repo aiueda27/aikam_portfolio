@@ -33,7 +33,7 @@ const FeedbackCard = ({
             </p>
           </div>
         </div>
-        <p className="mt-3 text-white tracking-wider text-[18px]">
+        <p className="mt-3 text-white tracking-wider sm:text-[18px] text-[15px]">
           {testimonial}
         </p>
         <img
