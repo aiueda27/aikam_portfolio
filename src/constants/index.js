@@ -15,6 +15,7 @@ import {
   git,
   figma,
   docker,
+  threejs,
   arsaga,
   mizutama,
   yokogawa,
@@ -22,7 +23,7 @@ import {
   confidential,
   disney,
   eyeroom,
-  threejs,
+  brian,
 } from '../assets'
 
 export const navLinks = [
@@ -169,18 +170,19 @@ const testimonials = [
   },
   {
     testimonial:
-      'Given the opportunity I would be thrilled to work alongside AI again in the future. She was very supportive and thoughtful when I joined the company, and continued to be a joy to work with. ',
+      'Given the opportunity I would be thrilled to work alongside Ai again in the future. She was very supportive and thoughtful when I joined the company, and continued to be a joy to work with. ',
     name: 'Ashby M',
     designation: 'Junior Developer',
     company: 'Arsaga Partners',
     image: '',
   },
   {
-    testimonial: 'Ai was amazing',
+    testimonial:
+      'Ai showed a refined understanding of the entire design and development process. Her unique combination of aesthetic sensibilities and rigorous attention to detail produces outstanding quality work. She also supports her technical skills with deep knowledge and comprehension of industry standard best practices, and expands her arsenal by constantly learning the newest techniques. ',
     name: 'Brian E',
     designation: 'UI/UX Designer',
     company: 'Arsaga Partners',
-    image: '',
+    image: brian,
   },
 ]
 
