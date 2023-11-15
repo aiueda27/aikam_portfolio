@@ -11,7 +11,7 @@ const ContactForm = ({ formRef, form, onChange, onSubmit, loading }) => {
       <Input
         label="Your Name"
         name="name"
-        value={form.value}
+        value={form.name}
         placeholder="Please enter your name"
         onChange={onChange}
       />

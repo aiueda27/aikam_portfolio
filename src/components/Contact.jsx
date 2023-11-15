@@ -17,8 +17,54 @@ const Contact = () => {
   })
   const [loading, setLoading] = useState(false)
 
-  const handleChange = (e) => {}
-  const handleSubmit = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target
+    setForm({ ...form, [name]: value })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setLoading(true)
+
+    const serviceID = import.meta.env.VITE_SERVICE_ID
+    const templateID = import.meta.env.VITE_TEMPLATE_ID
+    const publicKey = import.meta.env.VITE_PUBLIC_KEY
+    const email = import.meta.env.EMAIL
+
+    emailjs
+      .send(
+        serviceID,
+        templateID,
+        {
+          from_name: form.name,
+          to_name: 'Ai',
+          from_email: form.email,
+          to_email: email,
+          message: form.message,
+        },
+        publicKey
+      )
+      .then(
+        () => {
+          setLoading(false)
+          alert(
+            'Thank you for reaching out. I will get back to you as soon as possible.'
+          )
+
+          setForm({
+            name: '',
+            email: '',
+            message: '',
+          })
+        },
+        (error) => {
+          setLoading(false)
+          console.error(error)
+
+          alert('Sorry, something went wrong. Please try again.')
+        }
+      )
+  }
 
   return (
     <div
