@@ -40,6 +40,7 @@ import eyeroom from './project/eyeroom.png'
 
 /** testimonial */
 import person from './testimonial/person.png'
+import brian from './testimonial/brian.jpg'
 
 export {
   logo,
@@ -84,4 +85,5 @@ export {
 
   /** testimonial */
   person,
+  brian,
 }
