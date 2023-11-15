@@ -37,7 +37,7 @@ const Contact = () => {
         templateID,
         {
           from_name: form.name,
-          to_name: 'JavaScript Mastery',
+          to_name: 'Ai',
           from_email: form.email,
           to_email: email,
           message: form.message,
