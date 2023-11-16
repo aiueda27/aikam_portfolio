@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 
 import { styles } from '../styles'
-import { ComputersCanvas } from './canvas'
+import { NeonCanvas } from './canvas'
 
 const Hero = () => {
   return (
@@ -16,21 +16,15 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-purple">Ai</span>
+            Hello, I'm <span className="text-purple">Ai</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Over 2 years of experience <br className="sm:block hidden" /> in
-            front end development.
-            {/* <br className="sm:block hidden" />I have a
-            verifiable history of <br className="sm:block hidden" />
-            ES6, React, Vue.js, TypeScript, <br className="sm:block hidden" />
-            HTML, CSS, Sass, Git, and
-            <br className="sm:block hidden" />
-            various front-end frameworks. */}
+            I am a Frontend Developer <br className="sm:block hidden" /> with
+            over 2 years of experience.
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+      <NeonCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
